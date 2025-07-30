@@ -23,9 +23,6 @@ logging:
     org.hibernate.SQL: DEBUG
     org.springframework.security: DEBUG
 
-springdoc:
-  swagger-ui:
-    path: /swagger-ui.html
-    operationsSorter: method
-  api-docs:
-    path: /v3/api-docs
+app:
+  encryption:
+    secret: bQ4okh6Mke4FzCfqG7Xz5b7D2NZVgDn9xqfS+R+Oh0A=
